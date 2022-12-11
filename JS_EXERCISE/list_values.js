@@ -1,3 +1,11 @@
+const object={
+    first:'MyName',
+    last: 'YourName',
+    getCombinedName(){
+      return this.first+' '+this.last;
+    },
+};
+
 function print(a){
     a=0
     console.log("Moi" + a)

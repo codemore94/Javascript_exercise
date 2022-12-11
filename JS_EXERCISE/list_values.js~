@@ -1,0 +1,9 @@
+function print(a){
+    a=0
+    console.log("Moi" + a)
+}
+function check(){
+    assert.equal(print(1),Moi0)
+}
+print(1)
+check();

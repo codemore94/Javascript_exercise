@@ -1,3 +1,7 @@
+var assert = require('assert')
+
+const arr=['a','b','c','d']
+assert.equal(arr.length,4);
 const object={
     first:'MyName',
     last: 'YourName',
